@@ -63,4 +63,14 @@ public class ApiBeerV1 {
     public int hashCode() {
         return Objects.hash(id, name, style, upc);
     }
+
+    @Override
+    public String toString() {
+        return "ApiBeerV1{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", style='" + style + '\'' +
+                ", upc=" + upc +
+                '}';
+    }
 }
